@@ -1,0 +1,347 @@
+# Copyright (c) 2025 Sébastien Dominguez <52816569+SebDominguez@users.noreply.github.com>
+#
+# MacBook French keyboard map
+#
+# This layout ensures a more consistent experience for macOS users with French keyboards.
+#
+# ┌─[123]─┐ [123] = keycode
+# │ S   A │ S = Shift  A = AltGr + Shift
+# │ n   a │ n = Normal a = AltGr
+# └───────┘
+#
+# ┌──[1]──┐ ┌─[59]──┐┌─[60]──┐ ┌─[61]──┐┌─[62]──┐ ┌─[63]──┐┌─[64]──┐ ┌─[65]──┐┌─[66]──┐ ┌─[67]──┐┌─[68]──┐ ┌─[87]──┐┌─[88]──┐┌─[124]─┐
+# │  esc  │ │  f1   ││  f2   │ │  f3   ││  f4   │ │  f5   ││  f6   │ │  f7   ││  f8   │ │  f9   ││  f10  │ │  f11  ││  f12  ││ power │
+# └───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘└───────┘
+# ┌─[41]──┐┌──[2]──┐┌──[3]──┐┌──[4]──┐┌──[5]──┐┌──[6]──┐┌──[7]──┐┌──[8]──┐┌──[9]──┐┌─[10]──┐┌─[11]──┐┌─[12]──┐┌─[13]──┐┌────[14]─────┐
+# │ #   Ÿ ││ 1   ´ ││ 2   „ ││ 3   ” ││ 4   ’ ││ 5   [ ││ 6   å ││ 7   » ││ 8   Û ││ 9   Á ││ 0   Ø ││ °   ] ││ _   – ││ delete      │
+# │ @   • ││ &    ││ é   ë ││ "   “ ││ '   ‘ ││ (   { ││ §   ¶ ││ è   « ││ !   ¡ ││ ç   Ç ││ à   ø ││ )   } ││ -   — ││ backspace   │
+# └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└─────────────┘
+# ┌───[15]────┐┌─[16]──┐┌─[17]──┐┌─[18]──┐┌─[19]──┐┌─[20]──┐┌─[21]──┐┌─[22]──┐┌─[23]──┐┌─[24]──┐┌─[25]──┐┌─[26]──┐┌─[27]──┐┌──[28]───┐
+# │           ││ A   Æ ││ Z   Å ││ E   Ê ││ R   ‚ ││ T   ™ ││ Y   Ÿ ││ U   ª ││ I   ï ││ O   Œ ││ P   ∏ ││ ¨   Ô ││ *   ¥ ││ lf      │
+# │ tab       ││ A   æ ││ z   Â ││ e   ê ││ r   ® ││ t   † ││ y   Ú ││ u   º ││ i   î ││ o   œ ││ p   π ││ ^   ô ││ $   € ││ cr      │
+# └───────────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───┐     │
+# ┌─────[58]──────┐┌─[30]──┐┌─[31]──┐┌─[ 32]─┐┌─[ 33]─┐┌─[ 34]─┐┌─[ 35]─┐┌─[ 36]─┐┌─[ 37]─┐┌─[ 38]─┐┌─[ 39]─┐┌─[ 40]─┐┌─[ 43]─┐│     │
+# │               ││ Q   Ω ││ S   ∑ ││ D   ∆ ││ F   · ││ G   ﬂ ││ H   Î ││ J   Í ││ K   Ë ││ L   | ││ M   Ó ││ %   ‰ ││ £   # ││     │
+# │ CapsLock      ││ q   ‡ ││ s   Ò ││ d   ∂ ││ f   ƒ ││ g   ﬁ ││ h   Ì ││ j   Ï ││ k   È ││ l   ¬ ││ m   µ ││ ù   Ù ││ `   @ ││     │
+# └───────────────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└─────┘
+# ┌───[42]───┐┌─[86]──┐┌─[44]──┐┌─[45]──┐┌─[46]──┐┌─[47]──┐┌─[48]──┐┌─[49]──┐┌─[50]──┐┌─[51]──┐┌─[52]──┐┌─[53]──┐┌──────[54]─────────┐
+# │          ││ >   ≥ ││ W   › ││ X   ⁄ ││ C   ¢ ││ V   √ ││ B   ∫ ││ N   ı ││ ?   ¿ ││ .   • ││ /   \ ││ +   ± ││                   │
+# │ ShiftL   ││ <   ≤ ││ w   ‹ ││ x   ≈ ││ c   © ││ v   ◊ ││ b   ß ││ n   ~ ││ ,   ∞ ││ ;   … ││ :   ÷ ││ =   ≠ ││ ShiftR            │
+# └──────────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────────────────┘
+# ┌─[464]─┐┌─[29]──┐┌─[56]──┐┌───[125]──┐┌────────────────────[97]───────────────────┐┌──[126]───┐┌─[100]─┐         ┌─[103]─┐
+# │       ││       ││       ││          ││                                           ││          ││       │         └───────┘
+# │ fn    ││ ctrl  ││ alt   ││ cmd      ││ space                      No-Break Space ││ cmd      ││ alt   │┌─[105]─┐┌─[108]─┐┌─[106]─┐
+# └───────┘└───────┘└───────┘└──────────┘└───────────────────────────────────────────┘└──────────┘└───────┘└───────┘└───────┘└───────┘
+#
+# Format: keycode <keycode> = <default> <Shift> <AltGr> <Shift+AltGr> <Control>
+# keymaps 0,1,2,3,4
+
+include "compose.latin"
+
+keycode 0 = VoidSymbol
+
+# First row function and feature keys
+# ┌──[1]──┐ ┌─[59]──┐┌─[60]──┐ ┌─[61]──┐┌─[62]──┐ ┌─[63]──┐┌─[64]──┐ ┌─[65]──┐┌─[66]──┐ ┌─[67]──┐┌─[68]──┐ ┌─[87]──┐┌─[88]──┐┌─[124]─┐
+# │  esc  │ │  f1   ││  f2   │ │  f3   ││  f4   │ │  f5   ││  f6   │ │  f7   ││  f8   │ │  f9   ││  f10  │ │  f11  ││  f12  ││ power │
+# └───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘ └───────┘└───────┘└───────┘
+
+keycode  1            = Escape
+    alt     keycode 1 = Meta_Escape
+
+# Fn key not pressed = features key
+# Since features aren't supported, I mapped the console here. I don't know if we can
+# map brightness up and down to brightnessctl.
+keycode 224 = Console_1  # Brightness Down
+keycode 225 = Console_2  # Brightness Up
+keycode 120 = Console_3  # Exposé / Mission Control
+keycode 204 = Console_4  # Dashboard (very old models) / Launchpad(old models) / Spotlight (newer models)
+keycode 229 = Console_5  # Keyboard Brightness Down / Dictation (newer models)
+keycode 230 = Console_6  # Keyboard Brightness Up / focus (newer models)
+keycode 165 = VoidSymbol # Rewind (Previous Track)
+keycode 164 = VoidSymbol # Play / Pause
+keycode 163 = VoidSymbol # Fast Forward (Next Track)
+keycode 113 = VoidSymbol # Mute
+keycode 114 = VoidSymbol # Volume Down
+keycode 115 = VoidSymbol # Volume Up
+
+# fn pressed = function keys
+keycode 59 = F1  F13 F25 F37 F49
+keycode 60 = F2  F14 F26 F38 F50
+keycode 61 = F3  F15 F27 F39 F51
+keycode 62 = F4  F16 F28 F40 F52
+keycode 63 = F5  F17 F29 F41 F53
+keycode 64 = F6  F18 F30 F42 F54
+keycode 65 = F7  F19 F31 F43 F55
+keycode 66 = F8  F20 F32 F44 F56
+keycode 67 = F9  F21 F33 F45 F57
+keycode 68 = F10 F22 F34 F46 F58
+keycode 87 = F11 F23 F45 F47 F59
+keycode 88 = F12 F24 F36 F48 F60
+
+# Power key
+# Changing this one doen't do anything. It's handled somewhere else
+keycode 124 = VoidSymbol
+
+# Second row (Numbers and symbols)
+# ┌─[41]──┐┌──[2]──┐┌──[3]──┐┌──[4]──┐┌──[5]──┐┌──[6]──┐┌──[7]──┐┌──[8]──┐┌──[9]──┐┌─[10]──┐┌─[11]──┐┌─[12]──┐┌─[13]──┐┌────[14]─────┐
+# │ #   Ÿ ││ 1   ´ ││ 2   „ ││ 3   ” ││ 4   ’ ││ 5   [ ││ 6   å ││ 7   » ││ 8   Û ││ 9   Á ││ 0   Ø ││ °   ] ││ _   – ││ delete      │
+# │ @   • ││ &    ││ é   ë ││ "   “ ││ '   ‘ ││ (   { ││ §   ¶ ││ è   « ││ !   ¡ ││ ç   Ç ││ à   ø ││ )   } ││ -   — ││ backspace   │
+# └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└─────────────┘
+
+# Bullet (U+2022)
+# Latin Capital Letter Y With Diaeresis (U+0178)
+keycode 41                     = at numbersign U+2022 U+0178 VoidSymbol
+    alt             keycode 41 = Meta_at
+    alt shift       keycode 41 = Meta_numbersign
+# Apple logo (U+F8FF) replaced with Compose because why not.
+keycode 2                      = ampersand one Compose dead_acute
+    alt              keycode 2 = Meta_ampersand
+    alt shift        keycode 2 = Meta_one
+# Double Low-9 Quotation Mark (U+201E)
+keycode 3                      = eacute two ediaeresis U+201E
+    alt shift        keycode 3 = Meta_two
+# Left Double Quotation Mark (U+201C)
+# Right Double Quotation Mark (U+201D)
+keycode 4                      = quotedbl three U+201C U+201D
+    alt              keycode 4 = Meta_quotedbl
+    alt shift        keycode 4 = Meta_three
+# Left Single Quotation Mark (U+2018)
+# Right Single Quotation Mark (U+2019)
+keycode 5                      = apostrophe four U+2018 U+2019
+    alt              keycode 5 = Meta_apostrophe
+    alt shift        keycode 5 = Meta_four
+keycode 6                      = parenleft five braceleft bracketleft
+    alt              keycode 6 = Meta_parenleft
+    alt shift        keycode 6 = Meta_five
+    alt altgr        keycode 6 = Meta_braceleft
+    alt altgr shift  keycode 6 = Meta_bracketleft
+keycode 7                      = section six paragraph aring
+    alt shift        keycode 7 = Meta_six
+keycode 8                      = egrave seven guillemotleft guillemotright
+    alt              keycode 8 = Meta_grave
+    alt shift        keycode 8 = Meta_seven
+keycode 9                      = exclam eight exclamdown Ucircumflex
+    alt              keycode 9 = Meta_exclam
+    alt shift        keycode 9 = Meta_eight
+keycode 10                     = ccedilla nine Ccedilla Aacute
+    alt shift       keycode 10 = Meta_nine
+keycode 11                     = agrave zero oslash Ooblique
+    alt shift       keycode 11 = Meta_zero
+keycode 12                     = parenright degree braceright bracketright
+    alt             keycode 12 = Meta_parenright
+    alt altgr       keycode 12 = Meta_braceright
+    alt altgr shift keycode 12 = Meta_bracketright
+keycode 13                     = minus underscore emdash endash
+    alt             keycode 13 = Meta_minus
+    alt shift       keycode 13 = Meta_underscore
+keycode 14                     = BackSpace Delete
+    alt             keycode 14 = Meta_BackSpace
+    alt shift       keycode 14 = Meta_Delete
+
+# Third row
+# ┌───[15]────┐┌─[16]──┐┌─[17]──┐┌─[18]──┐┌─[19]──┐┌─[20]──┐┌─[21]──┐┌─[22]──┐┌─[23]──┐┌─[24]──┐┌─[25]──┐┌─[26]──┐┌─[27]──┐┌──[28]───┐
+# │           ││ A   Æ ││ Z   Å ││ E   Ê ││ R   ‚ ││ T   ™ ││ Y   Ÿ ││ U   ª ││ I   ï ││ O   Œ ││ P   ∏ ││ ¨   Ô ││ *   ¥ ││ lf      │
+# │ tab       ││ A   æ ││ z   Â ││ e   ê ││ r   ® ││ t   † ││ y   Ú ││ u   º ││ i   î ││ o   œ ││ p   π ││ ^   ô ││ $   € ││ cr      │
+# └───────────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───┐~~~~~│
+
+keycode 16                 = a A ae AE Control_a
+    alt         keycode 16 = Meta_a
+    alt shift   keycode 16 = Meta_A
+    control alt keycode 16 = Meta_Control_a
+keycode 17                 = z Z Acircumflex Aring Control_z
+    alt         keycode 17 = Meta_z
+    alt shift   keycode 17 = Meta_Z
+    control alt keycode 17 = Meta_Control_z
+keycode 18                 = e E ecircumflex Ecircumflex Control_e
+    alt         keycode 18 = Meta_e
+    alt shift   keycode 18 = Meta_E
+    control alt keycode 18 = Meta_Control_e
+keycode 19                 = r R registered U+201A Control_r # Single Low-9 Quotation Mark (U+201A)
+    alt         keycode 19 = Meta_r
+    alt shift   keycode 19 = Meta_R
+    control alt keycode 19 = Meta_Control_R
+# Unicode for dagger is wrong in keysym doc (0x0af1) should be 0x2020
+# Unicode for trademark is wrong in doc (0x0ac9) should 0x2122
+keycode 20                 = t T dagger trademark Control_t
+    alt         keycode 20 = Meta_t
+    alt shift   keycode 20 = Meta_T
+    control alt keycode 20 = Meta_Control_t
+keycode 21                 = y Y Uacute U+0178 Control_y # Latin Capital Letter Y With Diaeresis (U+0178)
+    alt         keycode 21 = Meta_y
+    alt shift   keycode 21 = Meta_Y
+    control alt keycode 21 = Meta_Control_y
+keycode 22                 = u U masculine ordfeminine Control_u
+    alt         keycode 22 = Meta_u
+    alt shift   keycode 22 = Meta_U
+    control alt keycode 22 = Meta_Control_u
+keycode 23                 = i I icircumflex idiaeresis Control_i
+    alt         keycode 23 = Meta_i
+    alt shift   keycode 23 = Meta_I
+    control alt keycode 23 = Meta_Control_i
+# Latin Small Ligature Oe (U+0153)
+# Latin Capital Ligature Oe (U+0152)
+keycode 24                 = o O U+0153 U+0152 Control_o
+    alt         keycode 24 = Meta_o
+    alt shift   keycode 24 = Meta_O
+    control alt keycode 24 = Meta_Control_o
+# Greek Small Letter Pi (U+03C0)
+# N-Ary Product (U+220F)
+keycode 25                 = p P U+03C0 U+220F Control_p
+    alt         keycode 25 = Meta_p
+    alt shift   keycode 25 = Meta_P
+    control alt keycode 25 = Meta_Control_p
+keycode 26                 = dead_circumflex dead_diaeresis ocircumflex Ocircumflex
+# Euro Sign (U+20AC) has been replaced with "currency". To display it correctly, use a Latin-0 (i.e., Latin-9) font.
+keycode 27                 = dollar asterisk currency yen
+    alt         keycode 27 = Meta_dollar
+    alt shift   keycode 27 = Meta_asterisk
+keycode 28                 = Return Linefeed
+    alt shift   keycode 28 = Meta_Linefeed
+
+# Fourth row
+# ┌─────[58]──────┐┌─[30]──┐┌─[31]──┐┌─[ 32]─┐┌─[ 33]─┐┌─[ 34]─┐┌─[ 35]─┐┌─[ 36]─┐┌─[ 37]─┐┌─[ 38]─┐┌─[ 39]─┐┌─[ 40]─┐┌─[ 43]─┐
+# │               ││ Q   Ω ││ S   ∑ ││ D   ∆ ││ F   · ││ G   ﬂ ││ H   Î ││ J   Í ││ K   Ë ││ L   | ││ M   Ó ││ %   ‰ ││ £   # │
+# │ CapsLock      ││ q   ‡ ││ s   Ò ││ d   ∂ ││ f   ƒ ││ g   ﬁ ││ h   Ì ││ j   Ï ││ k   È ││ l   ¬ ││ m   µ ││ ù   Ù ││ `   @ │
+# └───────────────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘
+
+keycode  58                    = Caps_Lock Shift_Lock AltGr_Lock
+    alt             keycode 58 = Alt_Lock
+    control         keycode 58 = Control_Lock
+# Double Dagger (U+2021)
+# Greek Capital Letter Omega (U+03A9)
+keycode 30                     = q Q U+2021 U+03a9 Control_q
+    alt             keycode 30 = Meta_q
+    alt shift       keycode 30 = Meta_Q
+    control alt     keycode 30 = Meta_Control_q
+keycode 31                     = s S Ograve U+03A3 Control_s # Greek Capital Letter Sigma (U+03A3)
+    alt             keycode 31 = Meta_s
+    alt shift       keycode 31 = Meta_S
+    control alt     keycode 31 = Meta_Control_s
+# Partial Differential (U+2202)
+# Greek Capital Letter Omega (U+03A9)
+keycode 32 = d D U+2202 U+03A9 Control_d
+    alt             keycode 32 = Meta_d
+    alt shift       keycode 32 = Meta_D
+    control alt     keycode 32 = Meta_Control_d
+# Latin Small Letter F With Hook (U+0192)
+keycode 33 = f F U+0192 periodcentered Control_f
+    alt             keycode 33 = Meta_f
+    alt shift       keycode 33 = Meta_F
+    control alt     keycode 33 = Meta_Control_f
+# Latin Small Ligature Fi (U+FB01) unicode keysym out of range
+# Latin Small Ligature Fl (U+FB02) unicode keysym out of range
+keycode 34                     = g G VoidSymbol VoidSymbol Control_g
+    alt             keycode 34 = Meta_g
+    alt shift       keycode 34 = Meta_G
+    control alt     keycode 34 = Meta_Control_g
+keycode 35                     = h H Igrave Icircumflex Control_h
+    alt             keycode 35 = Meta_h
+    alt shift       keycode 35 = Meta_H
+    control alt     keycode 35 = Meta_Control_h
+keycode 36                     = j J Idiaeresis Iacute Control_j
+    alt             keycode 36 = Meta_j
+    alt shift       keycode 36 = Meta_J
+    control alt     keycode 36 = Meta_Control_j
+keycode 37                     = k K Egrave Ediaeresis Control_k
+    alt             keycode 37 = Meta_k
+    alt shift       keycode 37 = Meta_K
+    control alt     keycode 37 = Meta_Control_k
+keycode 38                     = l L notsign bar Control_l
+    alt             keycode 38 = Meta_l
+    alt shift       keycode 38 = Meta_L
+    control alt     keycode 38 = Meta_Control_l
+keycode 39                     = m M mu Oacute Control_m
+    alt             keycode 39 = Meta_m
+    alt shift       keycode 39 = Meta_M
+    control alt     keycode 39 = Meta_Control_m
+# permille unicode in the doc (0xAD5) should be U+2030
+keycode 40                     = ugrave percent Ugrave U+2030
+    alt altgr       keycode 40 = Meta_percent
+keycode 43                     = dead_grave sterling at numbersign
+    alt altgr shift keycode 43 = Meta_numbersign
+
+# Fifth row
+# ┌───[42]───┐┌─[86]──┐┌─[44]──┐┌─[45]──┐┌─[46]──┐┌─[47]──┐┌─[48]──┐┌─[49]──┐┌─[50]──┐┌─[51]──┐┌─[52]──┐┌─[53]──┐┌──────[54]─────────┐
+# │          ││ >   ≥ ││ W   › ││ X   ⁄ ││ C   ¢ ││ V   √ ││ B   ∫ ││ N   ı ││ ?   ¿ ││ .   • ││ /   \ ││ +   ± ││                   │
+# │ ShiftL   ││ <   ≤ ││ w   ‹ ││ x   ≈ ││ c   © ││ v   ◊ ││ b   ß ││ n   ~ ││ ,   ∞ ││ ;   … ││ :   ÷ ││ =   ≠ ││ ShiftR            │
+# └──────────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────────────────┘
+
+keycode 42                             = Shift
+# Less-Than Or Equal To (U+2264)
+# Greater-Than Or Equal To (U+2265)
+keycode 86                             = less greater U+2264 U+2265
+    alt                     keycode 86 = Meta_less
+    alt shift               keycode 86 = Meta_greater
+# Single Left-Pointing Angle Quotation Mark (U+2039)
+# Single Right-Pointing Angle Quotation Mark (U+203A)
+keycode 44                             = w W U+2039 U+203A Control_w
+    alt                     keycode 44 = Meta_w
+    alt shift               keycode 44 = Meta_W
+    control alt             keycode 44 = Meta_Control_w
+# Almost Equal To (U+2248)
+# Fraction Slash (U+2044)
+keycode 45                             = x X U+2248 U+2044 Control_x
+    alt                     keycode 45 = Meta_x
+    alt shift               keycode 45 = Meta_X
+    control alt             keycode 45 = Meta_Control_x
+keycode 46                             = c C copyright cent Control_c
+    alt                     keycode 46 = Meta_c
+    alt shift               keycode 46 = Meta_C
+    control alt             keycode 46 = Meta_Control_c
+# Lozenge (U+25CA)
+#?Square Root (U+221A)
+keycode 47                             = v V U+25CA U+221A Control_v
+    alt                     keycode 47 = Meta_v
+    alt shift               keycode 47 = Meta_V
+    control alt             keycode 47 = Meta_Control_v
+# Integral (U+222B)
+keycode 48                             = b B ssharp U+222B Control_b
+    alt                     keycode 48 = Meta_b
+    alt shift               keycode 48 = Meta_B
+    control alt             keycode 48 = Meta_Control_b
+# Latin Small Letter Dotless I (U+0131)
+keycode 49                             = n N dead_tilde U+0131 Control_n
+    alt                     keycode 49 = Meta_n
+    alt shift               keycode 49 = Meta_N
+    control alt             keycode 49 = Meta_Control_n
+# Infinity (U+221E)
+keycode 50                             = comma question U+221E questiondown
+    alt                     keycode 50 = Meta_comma
+    alt shift               keycode 50 = Meta_question
+# Horizontal Ellipsis (U+2026)
+# Bullet (U+2022)
+keycode 51                             = semicolon period U+2026 U+2022
+    alt                     keycode 51 = Meta_semicolon
+    alt shift               keycode 51 = Meta_period
+keycode 52                             = colon slash division backslash
+    alt altgr shift         keycode 52 = Meta_backslash
+    altgr shift control     keycode 52 = Control_backslash
+    alt altgr shift control keycode 52 = Meta_Control_backslash
+# Not Equal To (U+2260)
+keycode 53                             = equal plus U+2260 plusminus
+    alt                     keycode 53 = Meta_equal
+    alt shift               keycode 53 = Meta_plus
+keycode 54                             = Shift
+
+# Sixth row: Modifier keys, space and arrows
+# ┌─[464]─┐┌─[29]──┐┌─[56]──┐┌───[125]──┐┌────────────────────[97]───────────────────┐┌──[126]───┐┌─[100]─┐         ┌─[103]─┐
+# │       ││       ││       ││          ││                                           ││          ││       │         └───────┘
+# │ fn    ││ ctrl  ││ alt   ││ cmd      ││ space                      No-Break Space ││ cmd      ││ alt   │┌─[105]─┐┌─[108]─┐┌─[106]─┐
+# └───────┘└───────┘└───────┘└──────────┘└───────────────────────────────────────────┘└──────────┘└───────┘└───────┘└───────┘└───────┘
+
+keycode 464             = VoidSymbol # Function key
+keycode 29              = Control
+keycode 56              = AltGr # Mac keyboards don't distinguish between Alt and AltGr. Both keys are used as AltGr and also function as Alt.
+keycode 97              = space space nobreakspace space
+    alt      keycode 97 = Meta_space
+keycode 100             = AltGr # Mac keyboards don't distinguish between Alt and AltGr. Both keys are used as AltGr and also function as Alt.
+keycode 125             = Alt # Cmd left is used as Meta key (alt key in linux lingo)
+keycode 126             = Alt # Cmd right as the same function has cmd left
+keycode 103             = Up PageUp Home
+    alt     keycode 103 = Console_1
+keycode 105             = Left
+    alt     keycode 105 = Decr_Console
+keycode 106             = Right
+    alt     keycode 106 = Incr_Console
+keycode 108             = Down PageDown End
+    alt     keycode 108 = Last_Console
